@@ -1,0 +1,20 @@
+1 搭建 beego
+
+$ go get -u github.com/astaxie/beego
+$ go get -u github.com/beego/bee
+请将 $GOPATH/bin 加入到你的 $PATH 变量中。请确保在此之前您已经添加了 $GOPATH 变量。
+
+坑  安装了几次 执行 ./bee version 都失败了 
+最后从网上看到 更新最新的go版本 再次安装bee 成功了
+
+执行 go version 
+
+├── Beego     : 1.9.2
+├── GoVersion : go1.10.1
+├── GOOS      : darwin
+├── GOARCH    : amd64
+├── NumCPU    : 4
+├── GOPATH    : /Users/yuxuefeng/github/go/goweb:/Users/yuxuefeng/github/go/golearn
+├── GOROOT    : /usr/local/go
+├── Compiler  : gc
+└── Date      : Saturday, 21 Apr 2018
